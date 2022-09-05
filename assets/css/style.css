@@ -49,9 +49,42 @@ main .smallcontainer{
   text-align: center;
 }
 
+.lastmain{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-/* #region debug */
+/* footer */
+footer.container{
+  height: 400px;
+  display: flex;
+  background-color: lightskyblue;
 
+}
+
+footer [class^="col"]{
+  height: 400px;
+  border: 1px solid;
+  background-color: azure;
+}
+hr{
+  margin: 1rem 0;
+}
+
+footer .col_12{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+.bottomlogo, .bottombutton{
+  height: 30px;
+  width: 60px;
+  background-color: blueviolet;
+}
+
+/*#region debug */
 .debug{
   background-color: lightcyan;
 }
@@ -88,11 +121,10 @@ main .smallcontainer{
 }
 
 .debug .col_12{
-  background-color: lightgreen;
+  background-color: azure;
   height: 100px;
-  width: 1000px;
-  border: 1px solid black;
 }
+/*#endregion */
 
 /* #region column rules */
 
